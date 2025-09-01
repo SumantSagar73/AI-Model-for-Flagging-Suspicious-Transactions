@@ -203,4 +203,4 @@ For technical support or training:
 
 ---
 
-**© 2024 Police Financial Crime Investigation System. Serving Law Enforcement with Advanced AI Technology.**
+**© 2025 Police Financial Crime Investigation System. Serving Law Enforcement with Advanced AI Technology.**
