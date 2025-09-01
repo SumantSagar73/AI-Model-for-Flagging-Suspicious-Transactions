@@ -1,15 +1,15 @@
 import joblib
 import pandas as pd
 import numpy as np
-from backend.app.utils.preprocessing import preprocess_single, preprocess_batch
+from app.utils.preprocessing import preprocess_single, preprocess_batch
 
 # Load Indian Banking model and preprocessors
-MODEL_PATH = "backend/app/model/indian_banking_model.pkl"
-SCALER_PATH = "backend/app/model/indian_banking_scaler.pkl"
-FEATURE_COLUMNS_PATH = "backend/app/model/feature_columns.pkl"
-PAYMENT_ENCODER_PATH = "backend/app/model/payment_encoder.pkl"
-MERCHANT_ENCODER_PATH = "backend/app/model/merchant_encoder.pkl"
-LOCATION_ENCODER_PATH = "backend/app/model/location_encoder.pkl"
+MODEL_PATH = "app/model/indian_banking_model.pkl"
+SCALER_PATH = "app/model/indian_banking_scaler.pkl"
+FEATURE_COLUMNS_PATH = "app/model/feature_columns.pkl"
+PAYMENT_ENCODER_PATH = "app/model/payment_encoder.pkl"
+MERCHANT_ENCODER_PATH = "app/model/merchant_encoder.pkl"
+LOCATION_ENCODER_PATH = "app/model/location_encoder.pkl"
 
 try:
     model = joblib.load(MODEL_PATH)

@@ -5,9 +5,9 @@ from typing import Optional, Dict, Any, List
 import pandas as pd
 import asyncio
 from datetime import datetime
-from backend.app.model.predictor import predict_single, predict_batch
-from backend.app.integrations.banking_api import IndianBankingAPIIntegrator
-from backend.app.analytics.advanced_analytics import AdvancedFinancialAnalytics
+from app.model.predictor import predict_single, predict_batch
+from app.integrations.banking_api import IndianBankingAPIIntegrator
+from app.analytics.advanced_analytics import AdvancedFinancialAnalytics
 
 app = FastAPI(
     title="Police Financial Crime Investigation API",
